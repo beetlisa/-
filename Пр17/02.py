@@ -1,4 +1,4 @@
 import math
 
 factorial_of_5 = math.factorial(5)
-print(f"Факториал числа 5: {factorial_of_5}")
+print(f"Factorial of a number 5: {factorial_of_5}")
