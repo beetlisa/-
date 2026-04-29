@@ -6,7 +6,7 @@ error_by_day = {}
 with open('log.txt', 'r', encoding='utf-8') as f:
     for line in f:
         if "ERROR" in line:
-            date_part = line.split()[0] # первое слово Ч дата
+            date_part = line.split()[0]
             error_by_day[date_part] = error_by_day.get(date_part, 0) + 1
 
 for day, count in sorted(error_by_day.items()):
