@@ -6,7 +6,7 @@ def workdays_between(start_date, end_date):
     workdays = 0
     for i in range(delta.days + 1):
         day = start_date + timedelta(days=i)
-        if day.weekday() < 5: # 0=ïí, 4=ïò, 5=ñá, 6=âñ
+        if day.weekday() < 5: 
             workdays += 1
     return workdays
 
