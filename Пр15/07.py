@@ -6,4 +6,4 @@ try:
             if "ERROR" in line:
                 print(line.strip())
 except FileNotFoundError:
-    print("Файл log.txt не найден")
+    print("File not found")
