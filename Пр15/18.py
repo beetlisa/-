@@ -2,6 +2,6 @@ from datetime import datetime
 
 deadline = datetime(2026, 4, 10)
 if datetime.now() > deadline:
-    print("Дедлайн просрочен")
+    print("deadline is overdue")
 else:
-    print("Дедлайн ещё не наступил")
+    print("the deadline has not arrived yet")
